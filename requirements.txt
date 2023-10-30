@@ -1,0 +1,6 @@
+b2btools
+biopython
+numpy
+pandas
+scipy
+secstructartist
