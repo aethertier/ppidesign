@@ -9,7 +9,7 @@ with open("requirements.txt", "r", encoding="utf-8") as f:
 setup(
     name="ppidesign",
     packages=["ppidesign"],
-    version="0.0.1b1",
+    version="0.0.1b2",
     author="David Bickel",
     description="Tool for modulating protein-protein interfaces",
     license="OSI Approved :: GNU General Public License v3 (GPLv3)",
@@ -25,11 +25,10 @@ setup(
         "Natural Language :: English",
         "Operating System :: OS Independent",
         "Programming Language :: Python :: 3.10",
-        "Programming Language :: Python :: 3.11",
         "Topic :: Scientific/Engineering :: Bio-Informatics",
         "Topic :: Scientific/Engineering :: Chemistry",
         "Topic :: Scientific/Engineering :: Physics"
     ],
-    python_requires=">=3.10",
+    python_requires=">=3.10,<3.11",
     install_requires=requirements,
 )
