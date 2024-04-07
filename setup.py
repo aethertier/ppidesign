@@ -21,7 +21,7 @@ setup(
     classifiers=[
         "Development Status :: 2 - Pre-Alpha"
         "Intended Audience :: Science/Research",
-        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "License :: Other/Proprietary License",
         "Natural Language :: English",
         "Operating System :: OS Independent",
         "Programming Language :: Python :: 3.10",

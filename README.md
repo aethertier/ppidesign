@@ -23,7 +23,7 @@ conda install -c conda-forge ambertools=23
 4. Download, build, and install this repository
 
 ```sh
-wget 
+git clone https://github.com/aethertier/ppidesign.git
 cd ppidesign
 make build
 make install
